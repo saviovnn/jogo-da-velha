@@ -1,0 +1,58 @@
+.x-hover:hover::after {
+  content: "X";
+  opacity: 0.4;
+}
+
+.o-hover:hover::after {
+  content: "O";
+  opacity: 0.4;
+}
+.linha {
+  position: absolute;
+  background-color: darkorange;
+}
+
+.linha-row-1 {
+  width: 100%;
+  height: 4px;
+  top: 15%;
+}
+.linha-row-2 {
+  width: 100%;
+  height: 4px;
+  top: 48.5%;
+}
+.linha-row-3 {
+  width: 100%;
+  height: 4px;
+  top: 83%;
+}
+.linha-column-1 {
+  height: 100%;
+  width: 4px;
+  left: 15.5%;
+}
+.linha-column-2 {
+  height: 100%;
+  width: 4px;
+  left: 48.5%;
+}
+.linha-column-3 {
+  height: 100%;
+  width: 4px;
+  left: 82.5%;
+}
+.linha-diagonal-1 {
+  width: 90%;
+  height: 5.5px;
+  top: 50%;
+  left: 6%;
+  transform: skewY(45deg);
+}
+.linha-diagonal-2 {
+  width: 90%;
+  height: 5.5px;
+  top: 50%;
+  left: 3%;
+  transform: skewY(-45deg);
+}
